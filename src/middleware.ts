@@ -11,5 +11,5 @@ export function middleware(request: NextRequest) {
 }
 
 export const config = {
-  matcher: ["/letter/:path*"],
+  matcher: ["/letter/:path*", "/memory-universe/:path*", "/final-scene/:path*"],
 }
